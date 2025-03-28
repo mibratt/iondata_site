@@ -17,8 +17,8 @@ html, body {
 .blurb {
   position: absolute;
   top: 20%;
-  left: 25%;
-  transform: translate(-50%, -50%);
+  left: 5%;
+  max-width: 50%;
 }
 
 #about {
@@ -29,15 +29,60 @@ html, body {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .double-column {
   flex: 50%;
   padding: 10px;
+  box-sizing: border-box;
 }
 
-#myimage {
-  padding-left: 50px;
+#myimage img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .header-background {
+    height: 100vh; /* Allow image to resize naturally */
+    background-size: contain;
+    background-position: top;
+  }
+  
+    /* Using flexbox to align content correctly */
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns the content at the top */
+    height: 100vh; /* Full viewport height */
+    padding-top: 0;
+  }
+
+  .blurb {
+    position: relative; /* Remove absolute positioning */
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    z-index: 2;
+  }
+
+  .double-column {
+    flex: 100%; /* Make the columns take full width on smaller screens */
+    text-align: center; /* Center the text */
+  }
+
+  /* Optional: Adjust padding for better spacing on smaller screens */
+  #myimage {
+    padding-left: 0; /* Remove left padding for better centering */
+  }
+
+  #about {
+    width: 90%; /* Allow more space on small devices */
+  }
 }
 
 #contact {
