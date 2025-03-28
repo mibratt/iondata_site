@@ -1,35 +1,44 @@
-
-  <div class="header-background">
-    <div class="container-fluid">
-      <div class="blurb">
-        <h1>iondata</h1>
-        <p style="font-size:2vw;">For an informed view of
-        current <br> trends and future directions</p>
-      </div>
-    </div>
-  </div>
-
-<div class="container-fluid" id="about">
-  <h1>About</h1>
-  <p><b>iondata</b> serves clients with data science solutions to support their understanding and analysis of events, trends, and underlying currents. It offers services that target specific parts or the entire cycle of data science, ranging from data collection via data analysis to data visualisation and communication.</p>
-    <div class="row">
-      <div class="double-column order-2 order-md-1" id="myimage">
-        <img src="images/myphoto.jpg" alt="" style="width:200px;height:200px" class="img-fluid rounded"/>
-        </div>
-        <div class="double-column order-1 order-md-2">
-          <p>Michael Bratt is the founder of <b>iondata</b>. His work is primarily focused on the calculation and analysis of country and city rankings on issues related to talent and technology. Among his current projects are the annual 
-<a href="https://www.insead.edu/faculty-research/research/gtci">Global Talent Competitiveness Index</a> and the <a href="https://futurereadinessindex.com">Future Readiness Economic Index</a>.</p>
-    </div>
+::: header-background
+``` {=html}          
+<div class="container-fluid header-container text-light">
+  <div class="header-background"></div>
+  <div class="blurb p-3">
+    <h1>Your partner for an eye on current trends and future directions</h1>
   </div>
 </div>
+```
+:::
 
-<div id="separator1"/>
-<div/>
+::: {#about .container-fluid}
+<h1>About</h1>
 
-<div class="container-fluid" id="contact">
-      <h1 class="section-title">Contact</h1>
-      <p>Get in touch: <br> 
-      <span style="color: rgb(52,89,230)">info@iondata.co</span></p>
-    </div>
+<p><b>iondata</b> serves clients with data science solutions to support their understanding and analysis of events, trends, and underlying currents. It offers services that target specific parts or the entire cycle of data science, ranging from data collection via data analysis to data visualisation and communication.</p>
+
+``` {=html}   
+<div class="row">
+  <div class="double-column order-2 order-md-1" id="myimage">
+    <img src="images/myphoto.jpg" alt="" style="width:200px;height:200px" class="img-fluid rounded"/>
   </div>
+  <div class="double-column order-1 order-md-2">
+      <p>Michael Bratt is the founder of <b>iondata</b>. His work is primarily focused on the calculation and analysis of country and city rankings on issues related to talent and technology. Among his current projects are the annual <a href="https://www.insead.edu/faculty-research/research/gtci">Global Talent Competitiveness Index</a> and the <a href="https://futurereadinessindex.com">Future Readiness Economic Index</a>.
+      </p>
+  </div>         
 </div>
+```
+:::
+
+
+
+::::: {#separator1}
+
+
+::: {#contact .container-fluid}
+``` {=html}         
+<div>
+  <h1 class="section-title">Contact</h1>
+  <p>Get in touch: <br> 
+  <span style="color: rgb(52,89,230)">info@iondata.co</span></p>
+</div>
+```
+:::
+
