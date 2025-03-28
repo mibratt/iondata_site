@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nAbout\n",
+    "section": "",
+    "text": "&lt;div class=\"container-fluid\"&gt;\n  &lt;div class=\"blurb\"&gt;\n    &lt;h1&gt;iondata&lt;/h1&gt;\n    &lt;p style=\"font-size:2vw;\"&gt;For an informed view of\n    current &lt;br&gt; trends and future directions&lt;/p&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n\nAbout\n\n\niondata serves clients with data science solutions to support their understanding and analysis of events, trends, and underlying currents. It offers services that target specific parts or the entire cycle of data science, ranging from data collection via data analysis to data visualisation and communication.\n\n&lt;div class=\"row\"&gt;\n  &lt;div class=\"double-column order-2 order-md-1\" id=\"myimage\"&gt;\n    &lt;img src=\"images/myphoto.jpg\" alt=\"\" style=\"width:200px;height:200px\" class=\"img-fluid rounded\"/&gt;\n    &lt;/div&gt;\n    &lt;div class=\"double-column order-1 order-md-2\"&gt;\n      &lt;p&gt;Michael Bratt is the founder of &lt;b&gt;iondata&lt;/b&gt;. His work is primarily focused on the calculation and analysis of country and city rankings on issues related to talent and technology. Among his current projects are the annual \nGlobal Talent Competitiveness Index and the Future Readiness Economic Index.\n\n&lt;/div&gt;"
+  }
+]

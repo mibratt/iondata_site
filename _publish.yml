@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 1b19e9ae-a0ec-48b7-a06b-18dbe07c4cf5
+      url: 'https://visionary-speculoos-4bf1c9.netlify.app'

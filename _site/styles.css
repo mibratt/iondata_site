@@ -1,0 +1,46 @@
+/*-- scss:defaults --*/
+
+html, body {
+ margin: 0;
+ padding: 0;
+ height: 100%;
+}
+
+.header-background {
+  background-image: url("images/landing-img.jpg");
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blurb {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+#about {
+  margin: auto;
+  width: 65%;
+  padding-bottom: 25px;
+}
+
+.row {
+  display: flex;
+}
+
+.double-column {
+  flex: 50%;
+  padding: 10px;
+}
+
+#myimage {
+  padding-left: 50px;
+}
+
+#contact {
+  margin: auto;
+  width: 65%;
+}
