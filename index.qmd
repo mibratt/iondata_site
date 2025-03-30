@@ -1,20 +1,28 @@
 ::: header-background
 ``` {=html}          
 <div class="container-fluid header-container text-light">
-  <div class="header-background"></div>
-  <div class="blurb p-3">
-    <h1>Your partner for an eye on current trends and future directions</h1>
+  <div class="row">
+    <div class="col-12 col-md-6 position-relative">
+      <img src="images/landing-img.jpg">
+    </div>
+    
+    <div class="col-12 col-md-6">
+      <div class="blurb p-3">
+        <h1>Your partner for a clear-eyed view on how we got here and where we might go next</h1>
+      </div>
+    </div>
   </div>
 </div>
 ```
 :::
 
 ::: {#about .container-fluid}
+``` {=html}   
 <h1>About</h1>
 
 <p><b>iondata</b> serves clients with data science solutions to support their understanding and analysis of events, trends, and underlying currents. It offers services that target specific parts or the entire cycle of data science, ranging from data collection via data analysis to data visualisation and communication.</p>
 
-``` {=html}   
+
 <div class="row">
   <div class="double-column order-2 order-md-1" id="myimage">
     <img src="images/myphoto.jpg" alt="" style="width:200px;height:200px" class="img-fluid rounded"/>
@@ -28,16 +36,13 @@
 :::
 
 
-
-::::: {#separator1}
-
-
 ::: {#contact .container-fluid}
 ``` {=html}         
 <div>
-  <h1 class="section-title">Contact</h1>
-  <p>Get in touch: <br> 
-  <span style="color: rgb(52,89,230)">info@iondata.co</span></p>
+  <h1 class="section-title">Contact me:</h1>
+  <p> 
+    <span style="color: rgb(52,89,230)">info@iondata.co</span>
+  </p>
 </div>
 ```
 :::

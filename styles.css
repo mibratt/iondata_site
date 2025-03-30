@@ -7,18 +7,34 @@ html, body {
 }
 
 .header-background {
-  background-image: url("images/landing-img.jpg");
-  min-height: 500px;
+  width: 100%;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header-container {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns the content at the top */
+  
+    padding-top: 0;
+  }
+
+
 .blurb {
   position: absolute;
   top: 20%;
-  left: 5%;
-  max-width: 50%;
+  left: 10%;
+  max-width: 40%;
+  z-index: 2;
 }
 
 #about {
@@ -34,8 +50,11 @@ html, body {
 
 .double-column {
   flex: 50%;
-  padding: 10px;
   box-sizing: border-box;
+}
+
+.double-column p {
+  text-align: left;
 }
 
 #myimage img {
@@ -47,32 +66,33 @@ html, body {
 /* Adjustments for small screens */
 @media (max-width: 768px) {
   .header-background {
-    height: 100vh; /* Allow image to resize naturally */
-    background-size: contain;
-    background-position: top;
+    
   }
   
     /* Using flexbox to align content correctly */
   .header-container {
+  
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Aligns the content at the top */
-    height: 100vh; /* Full viewport height */
+  
     padding-top: 0;
   }
 
   .blurb {
-    position: relative; /* Remove absolute positioning */
-    max-width: 90%;
-    margin: 0 auto;
+    position: static;
+    max-width: 100%;
     text-align: center;
-    padding-top: 20px;
-    z-index: 2;
   }
 
   .double-column {
     flex: 100%; /* Make the columns take full width on smaller screens */
-    text-align: center; /* Center the text */
+    text-align: center; 
+  }
+  
+   .double-column p {
+    flex: 100%; /* Make the columns take full width on smaller screens */
+    text-align: left; 
   }
 
   /* Optional: Adjust padding for better spacing on smaller screens */
