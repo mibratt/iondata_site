@@ -16,12 +16,7 @@ website:
   search: false
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
-    center: "&copy; Copyright 2025, iondata Sàrl"
-    left: 
-      - icon: github
-        href: https://github.com/mibratt/
-
-    
+    left: "&copy; Copyright 2025, iondata Sàrl"
 
 format:
   html:

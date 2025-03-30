@@ -41,8 +41,9 @@
 <div>
   <h1 class="section-title">Contact me:</h1>
   <p> 
-    <span style="color: rgb(52,89,230)">info@iondata.co</span>
+    <a href="mailto:info@iondata.co">info@iondata.co</a>
   </p>
+  <a href="https://github.com/mibratt/" style="color: #495057;"><i class="bi bi-github"></i></a>
 </div>
 ```
 :::

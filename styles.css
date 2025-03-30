@@ -20,11 +20,9 @@ img {
 }
 
 .header-container {
-  
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Aligns the content at the top */
-  
     padding-top: 0;
   }
 
@@ -65,17 +63,11 @@ img {
 
 /* Adjustments for small screens */
 @media (max-width: 768px) {
-  .header-background {
-    
-  }
-  
-    /* Using flexbox to align content correctly */
+  /* Using flexbox to align content correctly */
   .header-container {
-  
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Aligns the content at the top */
-  
     padding-top: 0;
   }
 
