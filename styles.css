@@ -29,8 +29,8 @@ img {
 
 .blurb {
   position: absolute;
-  top: 20%;
-  left: 10%;
+  top: 10%;
+  left: 5%;
   max-width: 40%;
   z-index: 2;
 }
