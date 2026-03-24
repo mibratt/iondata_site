@@ -3,27 +3,24 @@ project:
 
 website:
   title: "iondata"
-  navbar:
-    right:
-    - href: index.qmd
-      text: Home
-    - href: index.qmd#about
-      text: About
-    - href: index.qmd#contact
-      text: Contact
-    pinned: true
+  favicon: images/favicon.svg
+  navbar: false
   repo-url: "https://github.com/mibratt"
   search: false
-  page-footer:
-    right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2025, iondata Sàrl"
+  page-footer: "false"
 
 format:
   html:
-    theme: zephyr
+    theme: none
     css: styles.css
-    #backgroundcolor: rgb(196,209,255)
-    page-layout: full
+    page-layout: custom
     link-external-newwindow: true
+    toc: false
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+
 editor: visual
 

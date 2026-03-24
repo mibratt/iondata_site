@@ -1,0 +1,103 @@
+/*-- scss:defaults --*/
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+.header-background {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns the content at the top */
+    padding-top: 0;
+}
+
+
+.blurb {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  max-width: 40%;
+  z-index: 2;
+}
+
+#about {
+margin: auto;
+width: 65%;
+padding-bottom: 25px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.double-column {
+  flex: 50%;
+  box-sizing: border-box;
+}
+
+.double-column p {
+  text-align: left;
+}
+
+#myimage img {
+width: 100%;
+height: auto;
+border-radius: 50%;
+}
+
+/* Adjustments for small screens */
+  @media (max-width: 768px) {
+    /* Using flexbox to align content correctly */
+      .header-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; /* Aligns the content at the top */
+          padding-top: 0;
+      }
+    
+    .blurb {
+      position: static;
+      max-width: 100%;
+      text-align: center;
+    }
+    
+    .double-column {
+      flex: 100%; /* Make the columns take full width on smaller screens */
+        text-align: center; 
+    }
+    
+    .double-column p {
+      flex: 100%; /* Make the columns take full width on smaller screens */
+        text-align: left; 
+    }
+    
+    /* Optional: Adjust padding for better spacing on smaller screens */
+      #myimage {
+      padding-left: 0; /* Remove left padding for better centering */
+  }
+
+#about {
+width: 90%; /* Allow more space on small devices */
+  }
+}
+
+#contact {
+margin: auto;
+width: 65%;
+}

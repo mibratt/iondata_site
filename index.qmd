@@ -1,49 +1,142 @@
+::: navbar
+``` {=html}          
+<!-- Navbar -->
+<nav>
+  <a href="#" class="nav-logo">ion<span>data</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+```
+:::
+
 ::: header-background
 ``` {=html}          
-<div class="container-fluid header-container text-light">
-  <div class="row">
-    <div class="col-12 col-md-6 position-relative">
-      <img src="images/landing-img.jpg" alt="Image of hands on a laptop keyboard and charts on the screen">
-      <div class="blurb p-3">
-        <h1>Offering a clear-eyed view on how we got here and where we might go next</h1>
-      </div>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-image">
+    <img src="images/landing-img.jpg" alt="Hands on a laptop keyboard with charts on screen">
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Data science · Analysis · Visualisation</p>
+    <h1 class="hero-heading">
+      A clear-eyed view on<br>
+      <em>how we got here</em><br>
+      and where we might go next
+    </h1>
+    <p class="hero-subtext">iondata supports clients with rigorous data science solutions — from collection and analysis to visualisation and communication.</p>
+    <a href="#about" class="hero-cta">
+      Learn more
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M3 8h10M9 4l4 4-4 4"/>
+      </svg>
+    </a>
+  </div>
+</section>
+```
+:::
+
+::: services-strip
+``` {=html}
+<!-- SERVICES STRIP -->
+<div class="services-strip">
+  <div class="service-item">
+    <div class="service-num">01</div>
+    <div class="service-title">Data collection</div>
+    <div class="service-desc">Structured sourcing and cleaning of complex, multi-dimensional datasets.</div>
+  </div>
+  <div class="service-item">
+    <div class="service-num">02</div>
+    <div class="service-title">Data analysis</div>
+    <div class="service-desc">Rigorous statistical and econometric methods applied to real-world questions.</div>
+  </div>
+  <div class="service-item">
+    <div class="service-num">03</div>
+    <div class="service-title">Visualisation & communication</div>
+    <div class="service-desc">Presenting findings with clarity, precision, and visual impact.</div>
+  </div>
+</div>
+```
+:::
+
+::: histographiq-promo
+``` {=html}
+<!-- HISTOGRAPHIQ PROMO -->
+<div class="promo">
+  <div>
+    <div class="promo-badge">Recently launched</div>
+    <div class="promo-heading">HistographIQ</div>
+    <div class="promo-sub">Interactive maps with integrated timelines to visualise history.</div>
+  </div>
+  <a href="https://histographiq.com" class="promo-link">
+    Explore the app
+    <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+      <path d="M3 8h10M9 4l4 4-4 4"/>
+    </svg>
+  </a>
+</div>
+```
+:::
+
+``` {=html}   
+<section id="about" class="about">
+  <div class="about-left">
+    <p class="section-label">About</p>
+    <h2 class="section-heading">Data science rooted in economics and real-world research</h2>
+    <div class="about-photo-wrap">
+      <img src="images/myphoto.jpg" alt="Michael Bratt">
     </div>
   </div>
-</div>
-```
-:::
-
-::: {#about .container-fluid}
-``` {=html}   
-<h1>About</h1>
-
-<p><b>iondata</b> serves clients with data science solutions to support their understanding and analysis of events, trends, and underlying currents. It offers services that target specific parts or the entire cycle of data science, ranging from data collection via data analysis to data visualisation and communication.</p>
-
-
-<div class="row">
-  <div class="double-column order-2 order-md-1" id="myimage">
-    <img src="images/myphoto.jpg" alt="" style="width:200px;height:200px" class="img-fluid rounded"/>
+  <div class="about-right">
+    <div class="about-body">
+      <p><strong>iondata</strong> serves clients with data science solutions to support their understanding and analysis of events, trends, and underlying currents. Services span the entire data science cycle — from data collection through analysis to visualisation and communication.</p>
+      <p>Michael Bratt is the founder of <strong>iondata</strong>. He started his career in international trade and economic development, including work at the Swedish <a href="https://www.kommerskollegium.se/en/">National Board of Trade</a> and the <a href="https://unctad.org/">UN Trade and Development (UNCTAD)</a>.</p>
+      <p>His more recent work has focused on the calculation and analysis of country and city rankings on issues related to talent, finance, and technology. Recent projects include the <a href="https://fcci.webflow.io">Financial Centres Competitiveness Index</a>, supported by Stern at NYU Abu Dhabi, and the <a href="https://citiesfuturereadinessindex.net">Cities Future Readiness Index</a>. Past projects include <a href="https://www.insead.edu/faculty-research/research/gtci">The Global Talent Competitiveness Index</a> for INSEAD and the <a href="https://futurereadinessindex.com">Future Readiness Economic Index</a> commissioned by Google.</p>
+      <p>Michael holds a PhD in Economics from the University of Geneva, where his research focused on <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/roie.12297">the economic impact of non-tariff barriers to international trade</a>.</p>
+    </div>
+    <div id="work" class="project-tags">
+      <span class="project-tag">Country rankings</span>
+      <span class="project-tag">City indices</span>
+      <span class="project-tag">International trade</span>
+      <span class="project-tag">Econometrics</span>
+      <span class="project-tag">Data visualisation</span>
+      <span class="project-tag">Web apps</span>
+    </div>
   </div>
-  <div class="double-column order-1 order-md-2">
-      <p>Michael Bratt is the founder of <b>iondata</b>. He started his career in the area of international trade and economic development, including work at the Swedish <a href="https://www.kommerskollegium.se/en/">National Board of Trade</a> and the <a href="https://unctad.org/">UN Trade and Development (UNCTAD)</a>. His more recent work has focused on the calculation and analysis of country and city rankings on issues related to talent and technology, where past projects include <a href="https://www.insead.edu/faculty-research/research/gtci">The Global Talent Competitiveness Index</a> for INSEAD and <a href="https://futurereadinessindex.com">The Future Readiness Economic Index</a> commissioned by Google.</p>
-      
-      <p>Michael holds a PhD in Economics from the University of Geneva, where his research focused on <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/roie.12297">the economic impact of non-tariff barriers to international trade</a>.
-      </p>
-  </div>         
-</div>
+</section>
+
+<div class="ruled-divider"><span>iondata · Switzerland</span></div>
 ```
-:::
 
 
-::: {#contact .container-fluid}
 ``` {=html}         
-<div>
-  <h1 class="section-title">Contact:</h1>
-  <p> 
-    <a href="mailto:info@iondata.co">info@iondata.co</a>
-  </p>
-  <a href="https://github.com/mibratt/" style="color: #495057;"><i class="bi bi-github"></i></a>
-</div>
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="contact-left">
+    <h2 class="contact-heading">
+      Let's work<br><em>together</em>
+    </h2>
+  </div>
+  <div class="contact-right">
+    <div class="contact-detail">
+      <span class="contact-detail-label">Email</span>
+      <a href="mailto:info@iondata.co">info@iondata.co</a>
+    </div>
+    <div class="contact-detail">
+      <span class="contact-detail-label">GitHub</span>
+      <a href="https://github.com/mibratt/">github.com/mibratt</a>
+    </div>
+  </div>
+</section>
+```
+
+
+::: {#footer}
+``` {=html}
+<footer>
+  <div class="footer-logo">ion<span>data</span></div>
+  <div class="footer-copy">© 2025 iondata. All rights reserved.</div>
+</footer>
 ```
 :::
-
